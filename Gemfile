@@ -18,7 +18,7 @@ gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
-# gemFile for security
+# gem - Protect my secret data in .env file
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Gemfile for Style sheets
