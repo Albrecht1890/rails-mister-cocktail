@@ -18,6 +18,9 @@ gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+# gemFile for security
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Gemfile for Style sheets
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
