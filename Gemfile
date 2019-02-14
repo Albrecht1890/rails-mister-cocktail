@@ -21,6 +21,9 @@ gem 'webpacker'
 # gem - Protect my secret data in .env file
 gem 'dotenv-rails', groups: [:development, :test]
 
+# Use cloudinary
+gem 'cloudinary', '~> 1.9.1'
+
 # Gemfile for Style sheets
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
