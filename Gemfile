@@ -20,7 +20,8 @@ gem 'webpacker'
 
 # gem - Protect my secret data in .env file
 gem "figaro"
-
+# Gem to associate photos to models
+gem 'carrierwave', '~> 1.2'
 # Use cloudinary
 gem 'cloudinary', '~> 1.9.1'
 
