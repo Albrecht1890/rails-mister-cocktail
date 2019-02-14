@@ -19,7 +19,7 @@ gem 'webpacker'
 # gem 'mini_racer', platforms: :ruby
 
 # gem - Protect my secret data in .env file
-gem 'dotenv-rails', groups: [:development, :test]
+gem "figaro"
 
 # Use cloudinary
 gem 'cloudinary', '~> 1.9.1'
